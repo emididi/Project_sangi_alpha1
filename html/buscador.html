@@ -22,10 +22,16 @@
     <div class="menu">
         <div id="sidebar-menu">
             <div class="cont-menu">
+
+                <div class="sidebar-header p-4 pt-1">
+                    <img src="img/sangii3.png" alt="Imagen de encabezado" class="img-fluid">
+                </div>
+
+
                 <div>
                     <a href="" class="d-block p-4"><i class="icon ion-ios-home lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Inicio</a>
-                    <a href="perfil_compl.html" class="d-block p-4"><i class="icon ion-md-contact lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Perfil</a>
-                    <a href="" class="d-block p-4"><i class="icon ion-md-text lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Solicitar donador</a>
+                    <a href="" class="d-block p-4"><i class="icon ion-md-contact lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Perfil</a>
+                    <a href="solicitud.html" class="d-block p-4"><i class="icon ion-md-text lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Solicitar donador</a>
                     <a href="" class="d-block p-4"><i class="icon ion-md-list lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Solicitudes de búsqueda de donantes</a>
                     <a href="" class="d-block p-4"><i class="icon ion-md-water lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Ser donador</a>
                     <a href="" class="d-block p-4"><i class="icon ion-md-albums lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Ofertas de donación</a>
@@ -39,31 +45,67 @@
     <main>
 
 <!--Barra del buscador-->
-        <div class="barra_buscar d-flex">
-            <form class= "buscar" action="/buscar" method="get">
-                <i class="icon ion-md-search lead"></i>
-                <input class="form_busc" type="text" id="busqueda" name="q" >
-            </form>
-        </div>
 
-<!--Opciones para buscar-->
+<p class="bienv">
+    <span class="fs-1">Bienvenido</span><br>
+    <span class="fs-5"> Si ya eres un donante simplemente selecciona los filtros para poder apoyar a los donantes, en caso de querer volverte uno, aplica. </span>
+  </p>
+  
+<!--Titulo hospitales-->
         <div class="hospitales">
             <div class="hosp">
                 <div class="titulo">Hospitales</div>
 
-
             </div>
         </div>
 
+<!-- opciones de hospitales-->
+    <div class="container-hosp">
+        <div class="scrolling-wrapper row flex-row flex-nowrap pb-4 text-center">
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">1</a></div>
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">2</a></div>
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">3</a></div>
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">4</a></div>
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">5</a></div>
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">6</a></div>
+            <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">7</a></div>
+        </div>
+    </div>
+
+
+
+
+<!--Titulo tipo de sangre-->
         <div class="tipo_s">
             <div class="ts">
                 <div class="titulo">Tipo de sangre</div>
 
+            </div>
 
+        <div class="container-tiposg">
+            <div class="scrolling-wrapper row flex-row flex-nowrap pb-4 text-center">
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">A+</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">A-</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">B+</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">B-</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">AB+</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">AB-</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">O+</a></div>
+                <div class="col-xs-4"><a href="view_filtro.html" style="text-decoration: none; color: #FFFEFB;">O-</a></div>
             </div>
         </div>
 
+
+
+<!--boton aplicar filtro-->
+    <!--
+        <div class="fixed-bottom mb-5" style="left: 1000px">
+            <button class="btn btn-custom" style="background-color: #80ccba54; color: #000000; font-size: 18px;">Aplicar filtros</button>
+        </div>
+    -->
+
     </main>
+
 
 
 

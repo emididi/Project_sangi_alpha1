@@ -1,0 +1,67 @@
+:root {
+    --bg-liight: #FFFEFB;
+    --principal: #80CCBA;
+}
+
+*{
+    font-family: 'Questrial', sans-serif;
+}
+
+/*Menu*/
+
+/*
+sidebar-menu {
+    position: absolute;
+    background: #FF5959;
+    width: 30%;
+    height: 100vh;
+    top:0; left: 0;
+
+}*/
+
+.cont-menu {
+    max-width: 250px;
+    background: #80CCBA;
+    height: 100vh;
+    position: relative;
+}
+
+.cont-menu {
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.cont-menu a{
+    text-decoration: none;
+    padding-top: 300px;
+    padding: 20px;
+    color: #FFFEFB;
+    border-left: 5px solid transparent;
+
+}
+
+
+.salir {
+    display: block;
+    margin-top: 200px;
+
+}
+
+
+/*titulo y descripción*/
+
+.titulo{
+    position: absolute;
+    height: 30px;
+    left: 690px;
+    top: 70px;
+}
+
+.container{
+    position: absolute;
+    left: 415px;
+    top: 250px;
+    
+}
+

@@ -1,26 +1,29 @@
 :root {
     --bg-liight: #FFFEFB;
-    --bg-red: #FF5959
+    --principal: #80CCBA;
 }
 
 *{
     font-family: 'Questrial', sans-serif;
 }
 
+
+
 /*Menu*/
 
+/*
 sidebar-menu {
     position: absolute;
-    background-color: #90CCBA;
+    background: #FF5959;
     width: 30%;
     height: 100vh;
     top:0; left: 0;
 
-}
+}*/
 
 .cont-menu {
     max-width: 250px;
-    background-color: #90CCBA;
+    background: #80CCBA;
     height: 100vh;
     position: relative;
 }
@@ -28,7 +31,7 @@ sidebar-menu {
 .cont-menu {
     font-family: 'Questrial', sans-serif;
     font-size: 18px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .cont-menu a{
@@ -43,33 +46,27 @@ sidebar-menu {
 
 .salir {
     display: block;
-    margin-top: 355px;
+    margin-top: 200px;
 
 }
+
 
 
 
 /*Buscador*/
 
 
-.barra_buscar {
+.bienv {
     position: absolute;
     height: 30px;
-    left: 510px;
-    top: 110px;
-    
+    left: 350px;
+    top: 50px;
 
 }
 
-.form_busc {
-    
-    width: 1113px;
-    height: 32px;
-    left: 460px;
-    top: 117px;
-    border-radius: 12px;
-    border-width: 0cap;
-    margin-left: 12px;
+
+.cont{
+    font-size: 20px;
 
 }
 
@@ -104,7 +101,7 @@ input:focus , textarea:focus {
     width: 134px;
     height: 51px;
     left: 422px;
-    top: 300px;
+    top: 250px;
 
     font-family: 'Questrial';
     font-style: normal;
@@ -120,154 +117,103 @@ input:focus , textarea:focus {
 /*hospitales scroll*/
 
 .container-hosp {
+
     position: absolute;
     width: 1500px;
     height: 121px;
     left: 340px;
-    top: 670px;
+    top: 320px;
+
 }
 
 .scrolling-wrapper{
 	overflow-x: auto;
 }
 
-.card-block{
-	height: 300px;
-	background-color: #fff;
-	border: none;
-	background-position: center;
-    background-size: cover;
-	transition: all 0.2s ease-in-out !important;
-	border-radius: 24px;
-
+  
+.container-hosp > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+    background: #80ccbabb;
+    width: 280px;
+    height: 120px;
+    margin-right: 20px;
 }
+  
 
-.card-1{
-	background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-}
-
-.card-2{
-	background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-}
-
-.card-3{
-	background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-}
-
-.card-4{
-	background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-}
-
-.card-5{
-	background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-}
-
-.card-6{
-	background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-}
-
-.card-7{
-	background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-}
-
-.card-8{
-	background-color: #FBDA61;
-    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+.col-xs-4 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    text-decoration: none;
+    
 }
 
 
-
-
-
-
-    /*tipo de sangre*/
+    /*tipos de sangre*/
 
 .ts {
-    position: absolute;
-    width: 182px;
-    height: 51px;
-    left: 422px;
-    top: 610px;
+        position: absolute;
+        width: 182px;
+        height: 51px;
+        left: 422px;
+        top: 570px;
+    
+        font-family: 'Questrial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+    
+        color: #000000;
+    
+    }
 
-    font-family: 'Questrial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
 
-    color: #000000;
+/*scroll tipos de sangre*/ 
 
-}
+    .scrolling-wrapper{
+        overflow-x: auto;
+    }
 
 
+    .container-tiposg {
+        position: absolute;
+        width: 1500px;
+        height: 121px;
+        left: 340px;
+        top: 640px;
+    }
+    
+    .scrolling-wrapper1{
+        overflow-x: auto;
+    }
+    
+      
+    .container-tiposg > .row > .col-xs-4 {
+        display: inline-block;
+        float: none;
+        background: #80ccbabb;
+        width: 280px;
+        height: 120px;
+        margin-right: 20px;
+    }
+      
+    
+    .col-xs-4 {
+        color: white;
+        font-size: 24px;
+        padding-bottom: 20px;
+        padding-top: 18px;
+        
+    }
 
-.container-tiposg {
 
-    position: absolute;
-    width: 1500px;
-    height: 121px;
-    left: 340px;
-    top: 406px;
-
-}
-
-.scrolling-wrapper{
-	overflow-x: auto;
-}
-
-.card-block{
-	height: 300px;
-	background-color: #c57171;
-	border: none;
-	background-position: center;
-	background-size: cover;
-	transition: all 0.2s ease-in-out !important;
-	border-radius: 24px;
-}
-
-.card-1{
-	background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-}
-
-.card-2{
-	background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-}
-
-.card-3{
-	background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-}
-
-.card-4{
-	background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-}
-
-.card-5{
-	background-color: #85FFBD;
-    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
-}
-
-.card-6{
-	background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-}
-
-.card-7{
-	background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
-}
-
-.card-8{
-	background-color: #FBDA61;
-    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
-}
+/*boton de filtros*/
+.btn-custom {
+    background-color: #80CCBA;
+    color: #fff;
+  }
+  
+  
